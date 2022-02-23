@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Change the Background Color Dynamically with JavaScript</title>
+
+    <script>
+      // Function to change heading background color
+      function changeHeadingBg() {
+        // document.getElementsByTagName("strong")[0].style.backgroundColor =
+        // "yellow";
+
+        let x = document.getElementById("input");
+        x.getElementsByTagName("strong")["3"].style.backgroundColor = "yellow";
+      }
+    </script>
+  </head>
+  <body>
+    <p>Output Here:</p>
+    <div id="input">
+      <!-- TODO: Add elements here if necessary -->
+      <strong>We</strong> have just started <strong>this</strong> section for
+      the users (<strong>beginner</strong> to intermediate) who
+      <strong>want</strong> to work with <strong>various</strong> JavaScript
+      <strong>problems</strong> and write scripts online to
+      <strong>test</strong> their JavaScript <strong>skill</strong>.
+      <strong>We</strong> have just started <strong>this</strong> section for
+      the users (<strong>beginner</strong> to intermediate) who
+      <strong>want</strong> to work with <strong>various</strong> JavaScript
+      <strong>problems</strong> and write scripts online to
+      <strong>test</strong> their JavaScript <strong>skill</strong>.
+      <strong>We</strong> have just started <strong>this</strong> section for
+      the users (<strong>beginner</strong> to intermediate) who
+      <strong>want</strong> to work with <strong>various</strong> JavaScript
+      <strong>problems</strong> and write scripts online to
+      <strong>test</strong> their JavaScript <strong>skill</strong>.
+      <strong>We</strong> have just started <strong>this</strong> section for
+      the users (<strong>beginner</strong> to intermediate) who
+      <strong>want</strong> to work with <strong>various</strong> JavaScript
+      <strong>problems</strong> and write scripts online to
+      <strong>test</strong> their JavaScript <strong>skill</strong>.
+
+      <hr />
+      <br />
+    </div>
+
+    <br />
+    <div>
+      <button onclick="changeHeadingBg('')">Test</button>
+    </div>
+  </body>
+</html>
+.
