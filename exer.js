@@ -5,7 +5,7 @@ function mouseOver() {
     let highLight = document.getElementsByTagName('strong');
   
     for (let i = 0; i < highLight.length; i++) {
-        highLight[i].style.backgroundColor = "yellow";
+        highLight[i].style.backgroundColor = "#017141";
 
    
        }
