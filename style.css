@@ -9,7 +9,6 @@
 section {
   position: relative;
   width: 100%;
-
   padding: 100px;
   display: flex;
   justify-content: space-between;
@@ -44,11 +43,14 @@ header ul li {
 
 header ul li a {
   display: inline-block;
-  color: black;
+  color: white;
   font-weight: 500;
   font-size: 1em;
   margin-left: 50px;
   text-decoration: none;
+  background-color: #017143;
+  border-radius: 20px;
+  padding: 15px;
 }
 
 /*Circle*/
@@ -83,10 +85,14 @@ span {
   font-weight: 800;
 }
 
-h2 {
+h1 {
   color: #333;
-  font-size: 1.5em;
+  font-size: 2.5em;
   padding-bottom: none;
+}
+
+p {
+  font-size: 1.3em;
 }
 
 div .textBox a {
